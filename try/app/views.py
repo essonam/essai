@@ -6,5 +6,5 @@ from django.template import loader
 def index(request):
     context = {"message":"bonjour a tous"}
     template = loader.get_template("app/index.html")
-    print("je suis tres fort et tres puissant")
+    print("je suis tres fort et tres pop")
     return HttpResponse(template.render(context,request))
